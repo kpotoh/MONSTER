@@ -1,0 +1,2 @@
+https://biopython-tutorial.readthedocs.io/en/latest/notebooks/07%20-%20Blast.html (blast through biopython tutorial)
+https://www.biostars.org/p/249818/ (multiple blast queries)

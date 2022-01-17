@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_29943</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>313</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>0.05</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_29943</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>313</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|18448666|gb|AF451966.1|</Hit_id>
+  <Hit_def>Pan troglodytes Kasey mitochondrial D-loop, partial sequence</Hit_def>
+  <Hit_accession>AF451966</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>466.555</Hsp_bit-score>
+      <Hsp_score>516</Hsp_score>
+      <Hsp_evalue>1.17165e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>286</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>TANCCGNTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTATATAGTACTATAA-CACTTAACCACCTATAACACATAAAAACCTACATCCACATTAAAACTTTACCCCATGCTTACAAGCACGAACAATAATCAACCTCCAACTGTCAAACATAACACACAACTCCAAAGACACTCCTCCCCCACCCCGATATCAACAAACCTGACAATCCTTGATAGTACATAGTACATACAGTCATATACCGTACATAGCACATTACAGTCAAATCCATTCTCGCCCCCACGGATGCCCCCCCTC</Hsp_qseq>
+      <Hsp_hseq>TAACCGCTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTACATAGTACTATAATCATTTAACCACCTATAACACATAAAAACCTACATCCACATTAAAACTTCCCCCCATGCTTACAAGCACGAACAATAATCGACCTCCAACTGTCGAACATAACACACAACCCCAAAGACACTCCTCCCCCACCCCGATACCAACAAACCTGACAGTCCTTAACAGTACATAGCACATACAATTATATACCGTACATAGCACATTACAGTCAAATCCATCCTCGCCCCCACGGATGCCCCCCCTC</Hsp_hseq>
+      <Hsp_midline>|| ||| |||||||||||||||||||||||||||||||||||||||| |||||||||||| || |||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||| ||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||| |||||||||||||| ||||| | ||||||||| ||||||| | ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|187968931|gb|EU527379.1|</Hit_id>
+  <Hit_def>Pan troglodytes verus isolate TA8 D-loop, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>EU527379</Hit_accession>
+  <Hit_len>481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.109</Hsp_bit-score>
+      <Hsp_score>429</Hsp_score>
+      <Hsp_evalue>9.0156e-106</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>CCGNTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTATATAGTACTATAA-CACTTAACCACCTATAACACATAAAAACCTACATCCACATTAAAACTTT-ACCCCATGCTTACAAGCACGAACAATAATCAACCTCCAACTGTCAAACATAACACACAACTCCAAAGACACTCCTCCCCCACCCCGATATCAACAAACCTGACAATCCTTGATAGTACATAGTACATACAGTCATATACCGTACATAGCACATTACAGTCAAATCCATTCTCGCCCCCACGGATGCCCCCCCTC</Hsp_qseq>
+      <Hsp_hseq>CCGCTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTGTACAGTACCATAATCACCCAACTACCTATAATACATAAAATCC-ACTCCCACATTAAAACCTTCACCCCAGGCTTACAAGCACGCACAACAATCAACCTCCAACTGTCAAACATAAAACACAACTCCAACGACACCCCTCCCCCACCCCGATATCAACAAACCT-ACCCCCCTTGACAGGACATAGTACATACAATCATACACCGTACATAGCACATTACAGTCAAATCCTTCCTCGTCCCCACGGATGCCCCCCCTC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||||||||||||||||||||| || ||||| |||| |||  ||| |||||||| |||||||| || ||  |||||||||||| || |||||| ||||||||||||| |||| |||||||||||||||||||||||||| |||||||||||| ||||| |||||||||||||||||||||||||||| ||   |||||| || |||||||||||||| ||||| ||||||||||||||||||||||||||||| | |||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|60172491|gb|AY918614.1|</Hit_id>
+  <Hit_def>Pan troglodytes verus isolate Tang/2169 D-loop, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>AY918614</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>378.19</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>4.6702e-103</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>CCGNTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTATATAGTACTATAA-CACTTAACCACCTATAACACATAAAAACCTACATCCACATTAAAACTTT-ACCCCATGCTTACAAGCACGAACAATAATCAACCTCCAACTGTCAAACATAACACACAACTCCAAAGACACTCCTCCCCCACCCCGATATCAACAAACCTGACAATCCTTGATAGTACATAGTACATACAGTCATATACCGTACATAGCACATTACAGTCAAATCCATTCTCGCCCCCACGGATGCCCCCCCTC</Hsp_qseq>
+      <Hsp_hseq>CCGCTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTGTACAGTACCATAATCACCCAACTACCTATAACACATAAAATCC-ACTCCCACACCAAAACCTTCACCCCATGCTTACAAGCACGCACAACAATCAACCTCCAACTGTCAAACATAAAACACAACTCCAACGACACCCCTCCCCCACCCCGATATCAACAGACCTACCCCCCCTTGACAGAACATAGTACATACAATCATACACCGTACATAGCACATTACAGTCAAATTCTTCCTCGTCCCCACGGATGCCCCCCCTC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||||||||||||||||||||| || ||||| |||| |||  ||| ||||||||||||||||| || ||  |||||  ||||| || |||||||||||||||||||| |||| |||||||||||||||||||||||||| |||||||||||| ||||| ||||||||||||||||||||||| ||||  |   |||||| || |||||||||||||| ||||| ||||||||||||||||||||||||||| | | |||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|392872390|gb|JQ866202.1|</Hit_id>
+  <Hit_def>Pan troglodytes schweinfurthii isolate OP2151 D-loop, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>JQ866202</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.289</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>1.63006e-102</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>CCGNTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTATATAGTACTATAA-CACTTAACCACCTATAACACATAAAAACCTACATCCACATTAAAACTT-TACCCCATGCTTACAAGCACGAACAATAATCAACCTCCAACTGTCAAACATAACACACAACTCCAAAGACACTCCTCCCCCACCCCGATATCAACAAACCTGACAAT-CCTTGATAGTACATAGTACATACAGTCATATACCGTACATAGCACATTACAGTCAAATCCATTCTCGCCCCCACGGATGCCCCCCCTCNNNNAGGGGT</Hsp_qseq>
+      <Hsp_hseq>CCGCTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTGTACAGTACTATAATCACTCAACTACCTATAACACATCAAACCCACC--CCACATTACAACCTCTACCCCATGCTTACAAGCACGCACAACAATCAACCCTCAACTGTCACACATAAAACACAACTCCAAAGACATTCCTCCCCCACCCCGATACCAACAGACCT-ATACTCCCTTAACAGTACATAGTACATACAACCGTACACCATACATAGCACATTACAGTCAAATCCATTCTCGCCCCCACGGATGCCCCCCCTCAGATAGGGGT</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||||||||||||||||||||| || |||||||||| |||| ||| ||||||||||||| ||| ||  |  |||||||| ||| | ||||||||||||||||||||| |||| ||||||||  ||||||||| |||||| ||||||||||||||||| |||||||||||||||||| ||||| |||| | | | |||| | |||||||||||||||||  | || ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|392872368|gb|JQ866180.1|</Hit_id>
+  <Hit_def>Pan troglodytes schweinfurthii isolate LU2020 tRNA-Pro gene and D-loop, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>JQ866180</Hit_accession>
+  <Hit_len>481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.289</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>1.63006e-102</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>CCGNTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTATATAGTACTATAA-CACTTAACCACCTATAACACATAAAAACCTACATCCACATTAAAACTTT-ACCCCATGCTTACAAGCACGAACAATAATCAACCTCCAACTGTCAAACATAACACACAACTCCAAAGACACTCCTCCCCCACCCCGATATCAACAAACCTGACAATC-CTTGATAGTACATAGTACATACAGTCATATACCGTACATAGCACATTACAGTCAAATCCATTCTCGCCCCCACGGATGCCCCCCCTCNNNNAGGGGT</Hsp_qseq>
+      <Hsp_hseq>CCGCTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTGTACAGTACTATAATCACTCAACTACCTATAATACATCAAATCCACC--CCACATTACAACCTTCACCCCATGCTTACAAGCACGCACAACAATCAACCCTCAACTGTCACACATAAAACACAACTCCAAAGACATTCCTCCCCCACCCCGATACCAACAAACCT-ATACTCTCTTAACAGTACATAGTACATACAACCGTACACCATACATAGCACATTACAGTCAAATCCATTCTCGCCCCCACGGATGCCCCCCCTCAGATAGGGGT</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||||||||||||||||||||| || |||||||||| |||| ||| |||||||| |||| ||| ||  |  |||||||| ||| || |||||||||||||||||||| |||| ||||||||  ||||||||| |||||| ||||||||||||||||| |||||||||||||||||| |||||||||| | | || ||| | |||||||||||||||||  | || ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|392872261|gb|JQ866072.1|</Hit_id>
+  <Hit_def>Pan troglodytes schweinfurthii isolate AM205 tRNA-Pro gene and D-loop, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>JQ866072</Hit_accession>
+  <Hit_len>481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.289</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>1.63006e-102</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>CCGNTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTATATAGTACTATAA-CACTTAACCACCTATAACACATAAAAACCTACATCCACATTAAAACTT-TACCCCATGCTTACAAGCACGAACAATAATCAACCTCCAACTGTCAAACATAACACACAACTCCAAAGACACTCCTCCCCCACCCCGATATCAACAAACCTGACAATC-CTTGATAGTACATAGTACATACAGTCATATACCGTACATAGCACATTACAGTCAAATCCATTCTCGCCCCCACGGATGCCCCCCCTCNNNNAGGGGT</Hsp_qseq>
+      <Hsp_hseq>CCGCTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTATACAGTACTATAATCACTCAACTACCTATAATACATCAAATCCACC--CCACATTACAACCTCTACCCCATGCTTACAAGCACGCACAACAATCAACCCTCAACTGTCACACATAAAACACAACTCCAAAGACATTCCTCCCCCACCCCGATACCAACAGACCT-ATACTCTCTTAACAGTACATAGTACATACAACCGTACACCATACATAGCACATTACAGTCAAATCCATTCTCGCCCCCACGGATGCCCCCCCTCAGATAGGGGT</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||||||||||||| |||||||||| |||| ||| |||||||| |||| ||| ||  |  |||||||| ||| | ||||||||||||||||||||| |||| ||||||||  ||||||||| |||||| ||||||||||||||||| |||||||||||||||||| ||||| |||| | | || ||| | |||||||||||||||||  | || ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|156181173|gb|EU077274.1|</Hit_id>
+  <Hit_def>Pan troglodytes isolate S12-9.Kigere_B D-loop, partial sequence; mitochondrial &gt;gi|156181174|gb|EU077275.1| Pan troglodytes isolate S14-3.Andy_B D-loop, partial sequence; mitochondrial &gt;gi|156181175|gb|EU077276.1| Pan troglodytes isolate S21-5.Clea_B D-loop, partial sequence; mitochondrial &gt;gi|156181176|gb|EU077277.1| Pan troglodytes isolate S26-10.Muga_B D-loop, partial sequence; mitochondrial &gt;gi|156181177|gb|EU077278.1| Pan troglodytes isolate S26-7.Jambo_B D-loop, partial sequence; mitochondrial &gt;gi|156181178|gb|EU077279.1| Pan troglodytes isolate Nambi_B D-loop, partial sequence; mitochondrial &gt;gi|156181306|gb|EU077407.1| Pan troglodytes isolate RudesequMichigan_N D-loop, partial sequence; mitochondrial &gt;gi|156181307|gb|EU077408.1| Pan troglodytes isolate TynersequMichigan_N D-loop, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>EU077274</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.289</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>1.63006e-102</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>CCGNTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTATATAGTACTATAA-CACTTAACCACCTATAACACATAAAAACCTACATCCACATTAAAACTT-TACCCCATGCTTACAAGCACGAACAATAATCAACCTCCAACTGTCAAACATAACACACAACTCCAAAGACACTCCTCCCCCACCCCGATATCAACAAACCTGACAATC-CTTGATAGTACATAGTACATACAGTCATATACCGTACATAGCACATTACAGTCAAATCCATTCTCGCCCCCACGGATGCCCCCCCTCNNNNAGGGGT</Hsp_qseq>
+      <Hsp_hseq>CCGCTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTGTACAGTACTATAATCACTCAACTACCTATAATACATCAAACCC-ACNCCCACATTACAACCTCTACCCCATGCTTACAAGCATGCACAACAATCAACCCCCAACTGTCACACATAAAACACAACTCCAAAGACATTCCTCCCCCACCCCGATACCAACAAACCT-ATACTCTCTTAACAGTACATAGTACATACAACCGTACACCATACATAGCACATTACAGTCAAATCCATCCTCGCCCCCACGGATGCCCCCCCTCAGATAGGGGT</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||||||||||||||||||||| || |||||||||| |||| ||| |||||||| |||| ||| || ||  |||||||| ||| | ||||||||||||||||||| | |||| |||||||| |||||||||| |||||| ||||||||||||||||| |||||||||||||||||| |||||||||| | | || ||| | |||||||||||||||||  | || ||| ||||||||||||||||||||||||||| |||||||||||||||||||||||||    ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|87137376|gb|DQ370352.1|</Hit_id>
+  <Hit_def>Pan troglodytes schweinfurthii isolate NY5 D-loop, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>DQ370352</Hit_accession>
+  <Hit_len>481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.289</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>1.63006e-102</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>CCGNTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTATATAGTACTATAA-CACTTAACCACCTATAACACATAAAAACCTACATCCACATTAAAACTT-TACCCCATGCTTACAAGCACGAACAATAATCAACCTCCAACTGTCAAACATAACACACAACTCCAAAGACACTCCTCCCCCACCCCGATATCAACAAACCTGACAATC-CTTGATAGTACATAGTACATACAGTCATATACCGTACATAGCACATTACAGTCAAATCCATTCTCGCCCCCACGGATGCCCCCCCTCNNNNAGGGGT</Hsp_qseq>
+      <Hsp_hseq>CCGCTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTGTACAGTACTATAATCACTCAACTACCTATAATACATCAAACCCACC--CCACATTACAACCTCTACCCCATGCTTACAAGCATGCACAACAATCAACCCTCAACTGTCACACATAAAACACAACTCCAAAGACACTCCTCCCCCACCCCGATATCAACAAACCT-ATACTCTCTTAACAGTACATAGTACATACAACCGTACACCATACATAGCACATTTCAGTCAAATCCATTCTCGCCCCCACGGATGCCCCCCCTCAGATAGGGGT</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||||||||||||||||||||| || |||||||||| |||| ||| |||||||| |||| ||| ||  |  |||||||| ||| | ||||||||||||||||||| | |||| ||||||||  ||||||||| |||||| ||||||||||||||||||||||||||||||||||||||||||||||| | | || ||| | |||||||||||||||||  | || ||| ||||||||||||| |||||||||||||||||||||||||||||||||||||||    ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|2315899|gb|U77219.1|PTU77219</Hit_id>
+  <Hit_def>Pan troglodytes schweinfurthii mitochondrial control region, partial sequence</Hit_def>
+  <Hit_accession>U77219</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.289</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>1.63006e-102</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>CCGNTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTATATAGTACTATAA-CACTTAACCACCTATAACACATAAAAACCTACATCCACATTAAAACTT-TACCCCATGCTTACAAGCACGAACAATAATCAACCTCCAACTGTCAAACATAACACACAACTCCAAAGACACTCCTCCCCCACCCCGATATCAACAAACCTGACAATC-CTTGATAGTACATAGTACATACAGTCATATACCGTACATAGCACATTACAGTCAAATCCATTCTCGCCCCCACGGATGCCCCCCCTCNNNNAGGGGT</Hsp_qseq>
+      <Hsp_hseq>CCGCTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTGTACAGTACTATAATCACTCAACTACCTATAATACATCAAACCCACC--CCACATTACAACCTCTACCCCATGCTTACAAGCATGCACAACAATCAACCCTCAACTGTCACACATAAAACACAACTCCAAAGACACTCCTCCCCCACCCCGATATCAACAAACCT-ATACTCTCTTAACAGTACATAGTACATACAACCGTACACCATACATAGCACATTTCAGTCAAATCCATTCTCGCCCCCACGGATGCCCCCCCTCAGATAGGGGT</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||||||||||||||||||||| || |||||||||| |||| ||| |||||||| |||| ||| ||  |  |||||||| ||| | ||||||||||||||||||| | |||| ||||||||  ||||||||| |||||| ||||||||||||||||||||||||||||||||||||||||||||||| | | || ||| | |||||||||||||||||  | || ||| ||||||||||||| |||||||||||||||||||||||||||||||||||||||    ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|156181179|gb|EU077280.1|</Hit_id>
+  <Hit_def>Pan troglodytes isolate S16-3.Tinka_B D-loop, partial sequence; mitochondrial &gt;gi|156181180|gb|EU077281.1| Pan troglodytes isolate S24-7.Bwoba_B D-loop, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>EU077280</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>373.682</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>1.98582e-101</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>CCGNTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTATATAGTACTATAA-CACTTAACCACCTATAACACATAAAAACCTACATCCACATTAAAACTTT-ACCCCATGCTTACAAGCACGAACAATAATCAACCTCCAACTGTCAAACATAACACACAACTCCAAAGACACTCCTCCCCCACCCCGATATCAACAAACCTGACAATCCTTGATAGTACATAGTACATACAGTCATATACCGTACATAGCACATTACAGTCAAATCCATTCTCGCCCCCACGGATGCCCCCCCTCNNNNAGGGGT</Hsp_qseq>
+      <Hsp_hseq>CCGCTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTGTACAGTACTATAATCACTCAACTACCTATAATACATCAAACTC-ACNCCCACATTACAACCTCCACCCCATGCTTACAAGCACGCACAACAATCAACCCTCAACTGTCACACATAAAACACAACTCCAAAGACACTCCTCCCCCACCCCGATATCAACAAACCTATCCTCTCTTAACAGTACATAGTACATACAACCGTACACCATACATAGCACATTACAGTCAAATCCATCCTCGCCCCCACGGATGCCCCCCCTCAGATAGGGGT</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||||||||||||||||||||| || |||||||||| |||| ||| |||||||| |||| |||  | ||  |||||||| ||| |  |||||||||||||||||||| |||| ||||||||  ||||||||| |||||| |||||||||||||||||||||||||||||||||||||||||||||||  |    ||| | |||||||||||||||||  | || ||| ||||||||||||||||||||||||||| |||||||||||||||||||||||||    ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>118785</Statistics_db-num>
+      <Statistics_db-len>1159316060</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

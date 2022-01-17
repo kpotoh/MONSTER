@@ -1,0 +1,1246 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>tblastn</BlastOutput_program>
+  <BlastOutput_version>TBLASTN 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>318</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>L;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>318</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|422034567|gb|JX945978.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus isolate Ker_Gui05 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>JX945978</Hit_accession>
+  <Hit_len>16297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50341e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|422034525|gb|JX945975.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus isolate Ker_PJDA0901 mitochondrion, complete genome &gt;gi|422034553|gb|JX945977.1| Mus musculus domesticus isolate Ker_PJDA0908 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>JX945975</Hit_accession>
+  <Hit_len>16298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50341e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|422034511|gb|JX945974.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus isolate Ker_PJDA03 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>JX945974</Hit_accession>
+  <Hit_len>16298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50341e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|422034497|gb|JX945973.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus isolate Ker_PJDA01 mitochondrion, complete genome &gt;gi|422034539|gb|JX945976.1| Mus musculus domesticus isolate Ker_PJDA0907 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>JX945973</Hit_accession>
+  <Hit_len>16298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50341e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|422034483|gb|JX945972.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus isolate Ker_PAF0939 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>JX945972</Hit_accession>
+  <Hit_len>16298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50341e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|422034469|gb|JX945971.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus isolate Ker_PAF0933 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>JX945971</Hit_accession>
+  <Hit_len>16298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50341e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|422034441|gb|JX945969.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus isolate Ker_Mayes34 mitochondrion, complete genome &gt;gi|422034455|gb|JX945970.1| Mus musculus domesticus isolate Ker_Mayes46 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>JX945969</Hit_accession>
+  <Hit_len>16298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50341e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|422034427|gb|JX945968.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus isolate Ker_Mayes19 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>JX945968</Hit_accession>
+  <Hit_len>16298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50341e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|422034399|gb|JX945966.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus isolate Ker_Jack0912 mitochondrion, complete genome &gt;gi|422034413|gb|JX945967.1| Mus musculus domesticus isolate Ker_Jack0922 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>JX945966</Hit_accession>
+  <Hit_len>16298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50341e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|422034385|gb|JX945965.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus isolate Ker_IB06 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>JX945965</Hit_accession>
+  <Hit_len>16298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50341e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|422034371|gb|JX945964.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus isolate Ker_Couv0903 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>JX945964</Hit_accession>
+  <Hit_len>16298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50341e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|482677815|gb|KC663622.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus isolate Crl:CD1(ICR) mitochondrion, complete genome</Hit_def>
+  <Hit_accession>KC663622</Hit_accession>
+  <Hit_len>16300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50347e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|422034581|gb|JX945979.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus isolate Ker_Jack0902 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>JX945979</Hit_accession>
+  <Hit_len>16300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50347e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|221664827|gb|FJ374664.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus strain TALLYHO/JngJ mitochondrion, complete genome</Hit_def>
+  <Hit_accession>FJ374664</Hit_accession>
+  <Hit_len>16300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50347e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|221664799|gb|FJ374662.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus strain STR/ort mitochondrion, complete genome</Hit_def>
+  <Hit_accession>FJ374662</Hit_accession>
+  <Hit_len>16300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50347e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|221664785|gb|FJ374661.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus strain SOD1/EiJ mitochondrion, complete genome</Hit_def>
+  <Hit_accession>FJ374661</Hit_accession>
+  <Hit_len>16301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50347e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|221664715|gb|FJ374656.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus strain RIIIS/J mitochondrion, complete genome</Hit_def>
+  <Hit_accession>FJ374656</Hit_accession>
+  <Hit_len>16299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50347e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|221664687|gb|FJ374654.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus strain PL/J mitochondrion, complete genome</Hit_def>
+  <Hit_accession>FJ374654</Hit_accession>
+  <Hit_len>16301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50347e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|221664659|gb|FJ374652.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus strain NOR/LtJ mitochondrion, complete genome &gt;gi|312844588|gb|HQ586004.1| Mus musculus strain BN/aW mitochondrion, complete genome &gt;gi|583829712|gb|KF937875.1| Mus musculus domesticus strain ICR mitochondrion, complete genome</Hit_def>
+  <Hit_accession>FJ374652</Hit_accession>
+  <Hit_len>16299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50347e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|221664561|gb|FJ374645.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus strain CE/J mitochondrion, complete genome</Hit_def>
+  <Hit_accession>FJ374645</Hit_accession>
+  <Hit_len>16300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50347e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|221664547|gb|FJ374644.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus strain C57BL/10J mitochondrion, complete genome</Hit_def>
+  <Hit_accession>FJ374644</Hit_accession>
+  <Hit_len>16300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50347e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|221664533|gb|FJ374643.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus strain BUB/BnJ mitochondrion, complete genome</Hit_def>
+  <Hit_accession>FJ374643</Hit_accession>
+  <Hit_len>16300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50347e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|221664505|gb|FJ374641.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus strain BPL/1J mitochondrion, complete genome</Hit_def>
+  <Hit_accession>FJ374641</Hit_accession>
+  <Hit_len>16300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50347e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|221664477|gb|FJ374639.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus strain 129P3/J mitochondrion, complete genome</Hit_def>
+  <Hit_accession>FJ374639</Hit_accession>
+  <Hit_len>16299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50347e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|118200767|gb|EF108341.1|</Hit_id>
+  <Hit_def>Mus musculus strain NZW/LacJ mitochondrion, complete genome &gt;gi|221664729|gb|FJ374657.1| Mus musculus domesticus strain SB/LeJ mitochondrion, complete genome</Hit_def>
+  <Hit_accession>FJ374657</Hit_accession>
+  <Hit_len>16300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50347e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|118200753|gb|EF108340.1|</Hit_id>
+  <Hit_def>Mus musculus strain NOD/LtJ mitochondrion, complete genome &gt;gi|221664617|gb|FJ374649.1| Mus musculus domesticus strain LT/SvEi mitochondrion, complete genome &gt;gi|225423197|gb|FJ803909.1| Mus musculus strain C3H/An clone B82 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>FJ374649</Hit_accession>
+  <Hit_len>16301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50347e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|118200725|gb|EF108338.1|</Hit_id>
+  <Hit_def>Mus musculus strain FVB/NJ mitochondrion, complete genome &gt;gi|259020102|gb|GQ871746.1| Mus musculus domesticus strain FVB/NJ mitochondrion, complete genome</Hit_def>
+  <Hit_accession>GQ871746</Hit_accession>
+  <Hit_len>16300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50347e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|62461709|gb|AY999076.1|</Hit_id>
+  <Hit_def>Mus musculus cell-line NIH/3T3 mitochondrion, complete genome &gt;gi|118200669|gb|EF108334.1| Mus musculus strain BTBR T+ tf/J mitochondrion, complete genome &gt;gi|221664589|gb|FJ374647.1| Mus musculus domesticus strain LG/J mitochondrion, complete genome &gt;gi|221664603|gb|FJ374648.1| Mus musculus domesticus strain LP/J mitochondrion, complete genome &gt;gi|221664701|gb|FJ374655.1| Mus musculus domesticus strain RF/J mitochondrion, complete genome &gt;gi|221664757|gb|FJ374659.1| Mus musculus domesticus strain SJL/J mitochondrion, complete genome &gt;gi|259020088|gb|GQ871745.1| Mus musculus domesticus strain DBA/1J mitochondrion, complete genome &gt;gi|583829684|gb|KF937873.1| Mus musculus domesticus strain Chinese Kun Ming mitochondrion, complete genome &gt;gi|902815987|gb|KR020497.1| Mus musculus strain C57BL/6N mitochondrion, complete genome</Hit_def>
+  <Hit_accession>FJ374647</Hit_accession>
+  <Hit_len>16301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50347e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|34556005|emb|AJ512208.1|</Hit_id>
+  <Hit_def>Mus musculus complete mitochondrial genome, strain Balb/cJ &gt;gi|38488898|gb|AY466499.1| Mus musculus strain CBA/J mitochondrion, complete genome &gt;gi|118200627|gb|EF108331.1| Mus musculus strain A/J mitochondrion, complete genome &gt;gi|118200655|gb|EF108333.1| Mus musculus strain BALB/cByJ mitochondrion, complete genome &gt;gi|221664575|gb|FJ374646.1| Mus musculus domesticus strain I/LnJ mitochondrion, complete genome &gt;gi|221664743|gb|FJ374658.1| Mus musculus domesticus strain SEA/GnJ mitochondrion, complete genome</Hit_def>
+  <Hit_accession>FJ374646</Hit_accession>
+  <Hit_len>16300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50347e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|8096291|dbj|AB042809.1|</Hit_id>
+  <Hit_def>Mus musculus mitochondrial DNA, complete genome, strain:SAMP8</Hit_def>
+  <Hit_accession>AB042809</Hit_accession>
+  <Hit_len>16299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50347e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|7804453|dbj|AB042523.1|</Hit_id>
+  <Hit_def>Mus musculus mitochondrial DNA, complete genome, strain:SAMR1</Hit_def>
+  <Hit_accession>AB042523</Hit_accession>
+  <Hit_len>16299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50347e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|7798599|dbj|AB042524.1|</Hit_id>
+  <Hit_def>Mus musculus mitochondrial DNA, complete genome, strain:SAMP1</Hit_def>
+  <Hit_accession>AB042524</Hit_accession>
+  <Hit_len>16299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50347e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|7770098|dbj|AB042432.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus mitochondrial DNA, complete genome &gt;gi|118200641|gb|EF108332.1| Mus musculus strain AKR/J mitochondrion, complete genome &gt;gi|118200711|gb|EF108337.1| Mus musculus strain DBA/2J mitochondrion, complete genome &gt;gi|221664491|gb|FJ374640.1| Mus musculus domesticus strain BPH/2J mitochondrion, complete genome &gt;gi|221664519|gb|FJ374642.1| Mus musculus domesticus strain BPN/3J mitochondrion, complete genome &gt;gi|221664673|gb|FJ374653.1| Mus musculus domesticus strain P/J mitochondrion, complete genome &gt;gi|221664771|gb|FJ374660.1| Mus musculus domesticus strain SM/J mitochondrion, complete genome &gt;gi|221664813|gb|FJ374663.1| Mus musculus domesticus strain SWR/J mitochondrion, complete genome &gt;gi|221664841|gb|FJ374665.1| Mus musculus domesticus strain YBR/EiJ mitochondrion, complete genome &gt;gi|259020074|gb|GQ871744.1| Mus musculus domesticus strain B10.D1-H2q/SgJ mitochondrion, complete genome &gt;gi|359741883|gb|JQ003190.1| Mus musculus strain WOM/W mitochondrion, complete genome &gt;gi|583829698|gb|KF937874.1| Mus musculus domesticus strain CF-1 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>AB042432</Hit_accession>
+  <Hit_len>16300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50347e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|221664645|gb|FJ374651.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus strain MRL/MpJ mitochondrion, complete genome</Hit_def>
+  <Hit_accession>FJ374651</Hit_accession>
+  <Hit_len>16302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50353e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|118200809|gb|EF108344.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus strain WSB/EiJ mitochondrion, complete genome</Hit_def>
+  <Hit_accession>EF108344</Hit_accession>
+  <Hit_len>16302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>7.50353e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|482677773|gb|KC663619.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus isolate BG_4235 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>KC663619</Hit_accession>
+  <Hit_len>16301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.502</Hsp_bit-score>
+      <Hsp_score>872</Hsp_score>
+      <Hsp_evalue>8.58922e-107</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NVLTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|482677787|gb|KC663620.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus isolate HB_4242 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>KC663620</Hit_accession>
+  <Hit_len>16312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.117</Hsp_bit-score>
+      <Hsp_score>871</Hsp_score>
+      <Hsp_evalue>1.48911e-106</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGCIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLISGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRSSYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILG +QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL+SGS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR++YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|482677759|gb|KC663618.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus isolate LE_4221 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>KC663618</Hit_accession>
+  <Hit_len>16299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>339.347</Hsp_bit-score>
+      <Hsp_score>869</Hsp_score>
+      <Hsp_evalue>2.21204e-106</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPTRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILATSSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP +P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILATSSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|221664631|gb|FJ374650.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus strain MA/MyJ mitochondrion, complete genome</Hit_def>
+  <Hit_accession>FJ374650</Hit_accession>
+  <Hit_len>16300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.961</Hsp_bit-score>
+      <Hsp_score>868</Hsp_score>
+      <Hsp_evalue>3.72538e-106</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>2763</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>NLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>NILTLLVPILIAIAFLTLVERKILGYIQLRKGPNIVGPYGILQPFADAIKLFIKEPIRPLTTSISLFIIAPTLSLTLALSL*VPLPIPHPLINLNLGILFILAASSLSVYSIL*SG*ASNSKYSLFGALRAVAQTISYEVTIAIILLSVLLINGSYSLQTLITTQEHI*LLLPA*PIAII*FISTLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>N+L L+VPILIA+AFL L ERKILGY+QLRKGPN+VGPYG+LQPFADA+KLF KEP++P T++I+L+I APTL+LT+AL L  PLP+P+PL+NLNLG+LFILA SSL+VYSIL SG ASNS Y+L GALRAVAQTISYEVT+AIILLS LL++GS++L TLITTQEH+ LLLP+ P+A++ FISTLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|37183381|gb|AY394056.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus NADH dehydrogenase subunit 1 type 2 (Nd1) gene, partial cds; mitochondrial gene for mitochondrial product &gt;gi|37183383|gb|AY394057.1| Mus musculus musculus NADH dehydrogenase subunit 1 type 1 (Nd1) gene, partial cds; mitochondrial gene for mitochondrial product</Hit_def>
+  <Hit_accession>AY394056</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.229</Hsp_bit-score>
+      <Hsp_score>404</Hsp_score>
+      <Hsp_evalue>1.23288e-49</Hsp_evalue>
+      <Hsp_query-from>189</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>TLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>TLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>TLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|37183379|gb|AY394055.1|</Hit_id>
+  <Hit_def>Mus musculus domesticus NADH dehydrogenase subunit 1 type 1 (Nd1) gene, partial cds; mitochondrial gene for mitochondrial product</Hit_def>
+  <Hit_accession>AY394055</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.229</Hsp_bit-score>
+      <Hsp_score>404</Hsp_score>
+      <Hsp_evalue>1.23288e-49</Hsp_evalue>
+      <Hsp_query-from>189</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>TLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYXXXXXXXXXXXXXXXXXXYDALSPELYTTYFVTKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP</Hsp_qseq>
+      <Hsp_hseq>TLAETNRAPFDLTEGESELVSGFNVEYAAGPFALFFIAEYTNIILINALTTIIFLGPLYYINLPELYSTNFIIEALLLSSTFLWIRASYPRFRYDQLIHLL*KNFLPLTLALCM*HISLPIFTAGVPP</Hsp_hseq>
+      <Hsp_midline>TLAETNR PFDL EGESELVSGFN+EYAAGPFALFF+AEYTNII++N LTT IFLG  Y    PELY+T F+ + LLL+S FLWIR +YPRFRYDQL+HLL KNFLPLTLAL M ++S+PI  + +PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|202237|gb|M88758.1|MUSTUMSEQF</Hit_id>
+  <Hit_def>M.musculus mRNA polyA site sequence</Hit_def>
+  <Hit_accession>M88758</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>2.87001</Hsp_evalue>
+      <Hsp_query-from>263</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>TLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLP</Hsp_qseq>
+      <Hsp_hseq>TCHCRGVWFWLRPSYPQCRVGQAINELIRHLLP</Hsp_hseq>
+      <Hsp_midline>T     ++ W+R +YP+ R  Q ++ L ++ LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|3090429|dbj|D28492.1|MUSNEDD</Hit_id>
+  <Hit_def>Mus musculus mRNA for caspase-2, complete cds</Hit_def>
+  <Hit_accession>D28492</Hit_accession>
+  <Hit_len>3395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>8.25399</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>907</Hsp_hit-from>
+      <Hsp_hit-to>1017</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ILLSTLLMSGSFNL-STLITTQEHLWLLLPSWPLAMM</Hsp_qseq>
+      <Hsp_hseq>VVLSILLVDTSICLISTTCLDEEHFWLVL*TWTVSIV</Hsp_hseq>
+      <Hsp_midline>++LS LL+  S  L ST    +EH WL+L +W ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>73392858</Statistics_db-num>
+      <Statistics_db-len>517743274326</Statistics_db-len>
+      <Statistics_hsp-len>92</Statistics_hsp-len>
+      <Statistics_eff-space>735505700</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

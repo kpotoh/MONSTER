@@ -1,0 +1,16 @@
+There are three different files that blast should ouput:
+
+1) Aligned query-anchored amino-acids
+2) unaligned nucleotides
+3) text with control info
+
+First go to alignments and select "Query-anchored with letters for identities", then
+
+1) is obtained by going to "Descriptions", click download "Text".
+2) is obtained by going to "Descriptions", click download "FASTA (aligned sequences)".
+3) is obtained by going to "Descriptions", click download "Hit Table (CSV)" or "Hit Table (text)".
+
+To obtain them in BioPython:
+
+1) is obtained as the "sbjct" attributes of the hsp of each alignments : hsp.sbjct
+2) 
