@@ -132,7 +132,7 @@ def query_extraction(file_name):
     """Produce a pandas DataFrame with all queries informations."""
     with open(file_name) as f:
         raw_lines = f.readlines()
-    queries = list(map(lambda l: l[:-1].split(","), raw_lines))
+    queries = list(map(lambda l: l[:-1].split("\t"), raw_lines))
     query_df = pd.DataFrame(data=queries[1:], columns=queries[0])
     query_df["Code"] = pd.to_numeric(query_df["Code"], downcast="integer")
     return query_df
