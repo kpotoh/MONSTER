@@ -5,6 +5,7 @@ The mutational spectrum is a great tool to analyse the structure of mutations. W
 # Table of Contents
 - [Mutational Spectrum](#mutational-spectrum)
 - [Table of Contents](#table-of-contents)
+- [Environment](#environment)
 - [Pipeline Description](#pipeline-description)
   - [Main characteristics of the pipeline:](#main-characteristics-of-the-pipeline)
   - [Pipeline Structure](#pipeline-structure)
@@ -35,6 +36,25 @@ The mutational spectrum is a great tool to analyse the structure of mutations. W
   - [Biopython](#biopython)
   - [Conclusion](#conclusion)
 - [Limitations](#limitations)
+
+# Environment
+
+**Requirements**:
+- unix
+- installed Chrome bwowser
+- python 3.8+
+
+**Setup enviroment**:
+```
+pip install -r requirements.txt
+```
+
+**Tests & Dev**:
+```
+pip install -r requirements.dev.txt  # only for development
+pytest scripts/pipeline/test_pipe.py  # project structure will be modified soon
+```
+
 
 # Pipeline Description
 

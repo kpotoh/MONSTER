@@ -3,4 +3,3 @@
 *.ipynb_checkpoints
 data/*
 !data/share
-scripts/pipeline/__pycache__

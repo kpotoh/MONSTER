@@ -15,8 +15,10 @@ from Bio.Blast import NCBIXML
 from Bio import Seq
 from Bio import SeqIO
 from Bio import Entrez
-Entrez.email = "your@email.com"
 
+from step_1 import query_extraction
+
+Entrez.email = "your@email.com"
 possible_hit_nb = [10, 50, 100, 250, 500, 1000, 5000]
 
 
@@ -166,16 +168,6 @@ def setup_browser(headless):
               'downloadPath': str(pathlib.Path().resolve())}
     driver.execute_cdp_cmd('Page.setDownloadBehavior', params)
     return driver
-
-
-def query_extraction(file_name):
-    """Produce a pandas DataFrame with all queries informations."""
-    with open(file_name) as f:
-        raw_lines = f.readlines()
-    queries = list(map(lambda l: l[:-1].split(","), raw_lines))
-    query_df = pd.DataFrame(data=queries[1:], columns=queries[0])
-    query_df["Code"] = pd.to_numeric(query_df["Code"], downcast="integer")
-    return query_df
 
 
 def blast_query(file_name, driver, down_arrow_nb, hit_size_treshold=10):
