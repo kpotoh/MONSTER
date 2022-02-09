@@ -1,0 +1,41 @@
+This script will apply a pipeline to reconstruct mutational spectrums.
+
+For every given query, it will succesively call different scripts to make 
+the BLAST queries, extract the consensus and the observed (and if possible
+expected) deviations to finally reconstruct the mutation spectrums. To see 
+a detailed description of the pipeline please check the gitlab: 
+https://gitlab.epfl.ch/baffou/mutational-spectrum . Note that each step of
+the pipeline can be run as a standalone script. Thus you can tweak intermediate
+inputs and outputs as you want or even add some extra steps in between. For 
+the I/O format of this script but also for the sub-scripts please check the
+corresponding section in the gitlab.
+
+Parameter:
+
+-input_file: (String) Name of the control file containing the sequences. Please
+    look at the gitlab for the file format.
+
+Keyword Arguments:
+
+
+-out_folder: (String) Name of the folder where both intermediate and final
+    outputs will be stored (default=outputs).
+-hits_nb: (int) Max number of blast hits to return per query (default=100).
+    It must be one of the following values: [10, 50, 100, 250, 500, 1000, 5000].
+-neighbours_nb: (int) Number of desired neighbours (on the left
+    and on the right) in the output (default=2).
+-hit_size_treshold: (int) Min number of hits for the sequences to be kept (default=10).
+-codon: (flag) Indicate if codons should be provided in the output (default=False)
+-b: (flag) Indicates if the step 1 should run in browser mode rather than 
+    with biopython (default=False).
+-v: (flag) Indicates if the browser should be visible (default=False).   
+-c: (flag) Indicate if context should be taken into account (default=False).
+-h: (flag) Opens this Help section.
+
+Outputs:
+
+The script will output 4 different files. Three of them are intermediate results:
+    -sequences.csv: (DataFrame) Contains the results of all BLAST queries.
+    -logs.csv: (DataFrame) Contains extra informations on queries.
+    -deviations.json: (dict) Contains all observed and expected deviations.
+The last one contains the mutational spectrums for each valid initial query: mut_spec.JSON
