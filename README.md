@@ -6,6 +6,7 @@ The mutational spectrum is a great tool to analyse the structure of mutations. W
 - [Mutational Spectrum](#mutational-spectrum)
 - [Table of Contents](#table-of-contents)
 - [Environment](#environment)
+- [Usage](#usage)
 - [Pipeline Description](#pipeline-description)
   - [Main characteristics of the pipeline:](#main-characteristics-of-the-pipeline)
   - [Pipeline Structure](#pipeline-structure)
@@ -43,6 +44,7 @@ The mutational spectrum is a great tool to analyse the structure of mutations. W
 - unix
 - installed Chrome bwowser
 - python 3.8+
+- [GNU Parralel](http://www.gnu.org/software/parallel/)
 
 **Setup enviroment**:
 ```
@@ -53,6 +55,46 @@ pip install -r requirements.txt
 ```
 pip install -r requirements.dev.txt  # only for development
 pytest scripts/pipeline/test_pipe.py  # project structure will be modified soon
+```
+
+# Usage
+Input files must be tab separated files with 4 columns
+
+Example:
+```
+Species	Gene	Code	CDS	Sequence
+Pan troglodytes	D-loop	2	0	tanccgntatgtatttcgtacattactgccagccaccatgaatatt
+Mus Musculus domesticus	NADH1	2	1	MPMANLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSTITLYITA
+```
+There are 2 variants for running pipeline:
+1. Parallel
+2. Direct
+
+## Parallel
+For **parallel** case run simple bash script and pass arguments - small input files with 10-20 records:
+```
+sh ./run_pipeline.sh [FILE...]
+```
+For each input file distinct directory will be created for output files.
+
+Output directories:
+```
+data/run_$(current_datetime)/output_${FILE}
+```
+`run_*` is the directory that contain all output files of current run; 
+
+`output_*` is directory that contain output of one passed control file
+
+*Note* that enviroment must be activated before shell script running (if used):
+```
+source env/bin/activate
+sh run_pipeline.sh
+```
+
+## Direct
+For **parallel** case just run python script:
+```
+python3 scripts/pipeline/MONSTER.py --input_file FILE --out_folder DIR [-b] [-v] [-h]
 ```
 
 
