@@ -92,9 +92,16 @@ sh run_pipeline.sh
 ```
 
 ## Direct
-For **parallel** case just run python script:
+For **direct** case just run python script:
 ```
 python3 scripts/pipeline/MONSTER.py --input_file FILE --out_folder DIR [-b] [-v] [-h]
+```
+
+## If you have singularity 
+You can run pipeline in container in parallel manner
+```
+sudo singularity build image_monster.sif image_monster.def
+./image_monster.sif [FILE...]  # each file will be processed on distinct thread
 ```
 
 

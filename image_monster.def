@@ -9,6 +9,7 @@ From: browserless/chrome
 
     cd MONSTER
     pip install -r requirements.txt
+    python3 scripts/pipeline/download_selenium_driver.py  # download chromedriver
     cd
 
 %environment
@@ -32,5 +33,5 @@ From: browserless/chrome
     fi
 
 %runscript
-    # /bin/bash ./run_pipeline.sh $@
-    /bin/bash $@
+    # /bin/bash $@
+    /bin/bash ./run_pipeline.sh $@
