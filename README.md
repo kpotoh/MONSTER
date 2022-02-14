@@ -66,14 +66,14 @@ Species	Gene	Code	CDS	Sequence
 Pan troglodytes	D-loop	2	0	tanccgntatgtatttcgtacattactgccagccaccatgaatatt
 Mus Musculus domesticus	NADH1	2	1	MPMANLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATSTITLYITA
 ```
-There are 2 variants for running pipeline:
+**There are 2 variants for running pipeline**:
 1. Parallel
 2. Direct
 
 ## Parallel
-For **parallel** case run simple bash script and pass arguments - small input files with 10-20 records:
+For **parallel** case run simple bash script and pass arguments - small input files with 5-10 records:
 ```
-sh ./run_pipeline.sh [FILE...]
+bash ./run_pipeline.sh [-o|--output STR] [-t|--threads INT] [-v|--verbose] [-h|--help] [FILE...]
 ```
 For each input file distinct directory will be created for output files.
 
@@ -96,12 +96,15 @@ For **direct** case just run python script:
 ```
 python3 scripts/pipeline/MONSTER.py --input_file FILE --out_folder DIR [-b] [-v] [-h]
 ```
-
+-----------
 ## If you have singularity 
 You can run pipeline in container in parallel manner
 ```
+# build image
 sudo singularity build image_monster.sif image_monster.def
-./image_monster.sif [FILE...]  # each file will be processed on distinct thread
+
+# run image (each file will be processed on distinct thread)
+./image_monster.sif [-o|--output STR] [-t|--threads INT] [-v|--verbose] [-h|--help] [FILE...]
 ```
 
 

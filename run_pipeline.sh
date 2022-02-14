@@ -1,5 +1,4 @@
 #!/bin/bash
-# USAGE: sh ./run_pipeline.sh [FILE...]
 
 DOCSTRING="
 USAGE: sh ./run_pipeline.sh [OPTION...] [FILE...]\n
@@ -9,6 +8,7 @@ FILE - one or many tsv files with a few records (5-10)\n
 \n
 Options:\n
 -t, --threads [INT]         number of threads (default: 0 (all))\n
+-o, --outdir [STR]          output directory (default: ./data)\n
 -v, --verbose\n
 -h, --help\n
 "
@@ -17,7 +17,7 @@ THREADS=0  # which will run as many jobs in parallel as possible.
 PYTHON=/usr/bin/python3
 PARALLEL=/usr/bin/parallel
 SCRIPT=scripts/pipeline/MONSTER.py
-DIR=data/run_$(date --iso-8601=seconds)
+OUTDIR=data
 POSITIONAL_ARGS=()
 
 if [ $# -eq 0 ]; then
@@ -41,6 +41,11 @@ while [[ $# -gt 0 ]]; do
       shift # past argument
       shift # past value
       ;;
+    -o|--outdir)
+      OUTDIR="$2"
+      shift # past argument
+      shift # past value
+      ;;
     -*|--*)
       echo "Unknown option $1"
       exit 1
@@ -52,6 +57,8 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
+
+DIR=$OUTDIR/run_$(date --iso-8601=seconds)
 mkdir -p $DIR
 echo -e "Created directory for current run:\n./$DIR\n"
 if [[ $VERBOSE -eq YES ]]; then
