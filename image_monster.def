@@ -34,4 +34,4 @@ From: browserless/chrome
 
 %runscript
     # /bin/bash $@
-    /bin/bash ./run_pipeline.sh $@
+    /bin/bash /opt/MONSTER/run_pipeline.sh $@
