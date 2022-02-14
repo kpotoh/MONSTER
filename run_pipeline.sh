@@ -8,10 +8,9 @@ Positiosal arguments:\n
 FILE - one or many tsv files with a few records (5-10)\n
 \n
 Options:\n
--p, --python-path [PATH]    path to python executable\n
 -t, --threads [INT]         number of threads (default: 0 (all))\n
--h, --help\n
 -v, --verbose\n
+-h, --help\n
 "
 VERBOSE=NO
 THREADS=0  # which will run as many jobs in parallel as possible.
@@ -37,11 +36,6 @@ while [[ $# -gt 0 ]]; do
       VERBOSE=YES
       shift # past argument
       ;;
-    -p|--python-path)
-      PYTHON="$2"
-      shift # past argument
-      shift # past value
-      ;;
     -t|--threads)
       THREADS="$2"
       shift # past argument
@@ -66,5 +60,5 @@ if [[ $VERBOSE -eq YES ]]; then
 fi
 
 echo "Start parallel computing"
-$PARALLEL --jobs $THREADS $PYTHON $SCRIPT -b --input_file {} --out_folder $DIR/output_{/.} ::: $POSITIONAL_ARGS
+$PARALLEL --jobs $THREADS $PYTHON $SCRIPT -b --input_file {} --out_folder $DIR/output_{/.} ::: ${POSITIONAL_ARGS[*]}  #  --dry-run
 echo "Done"
