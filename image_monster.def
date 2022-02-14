@@ -27,6 +27,7 @@ From: browserless/chrome
     test_command bash
     test_command python3
     test_command pip
+    test_command google-chrome
     
     if [ -n "$FAILED_TESTS" ]; then
         exit 1
