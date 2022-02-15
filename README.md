@@ -71,6 +71,8 @@ Mus Musculus domesticus	NADH1	2	1	MPMANLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLL
 2. Direct
 
 ## Parallel
+Works only if MONSTER directory in `/opt`. But you can change hardcoded paths in `run_pipeline.py`.
+
 For **parallel** case run simple bash script and pass arguments - small input files with 5-10 records:
 ```
 bash ./run_pipeline.sh [-o|--output STR] [-t|--threads INT] [-v|--verbose] [-h|--help] [FILE...]
@@ -97,7 +99,7 @@ For **direct** case just run python script:
 python3 scripts/pipeline/MONSTER.py --input_file FILE --out_folder DIR [-b] [-v] [-h]
 ```
 -----------
-## If you have singularity 
+## If you have singularity - simplest way to run
 You can run pipeline in container in parallel manner
 ```
 # build image
