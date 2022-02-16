@@ -56,7 +56,7 @@ while [[ $# -gt 0 ]]; do
       shift # past value
       ;;
     -p|--tmpdir)
-      OUTDIR="$2"
+      TMPDIR="$2"
       shift # past argument
       shift # past value
       ;;
@@ -72,7 +72,7 @@ while [[ $# -gt 0 ]]; do
 done
 
 
-if [[ $TESTRUN -eq YES ]]; then
+if [[ $TESTRUN == YES ]]; then
   echo -e "Start test run\nWait 1-2 min\n"
   mkdir -p $TMPDIR
   $PARALLEL --jobs $THREADS $PYTHON $SCRIPT -b --input_file {} --out_folder $TMPDIR/output_{/.}-$(date --iso-8601=seconds) ::: $DEFAULT_DATA
@@ -83,7 +83,8 @@ fi
 DIR=$OUTDIR/run-$(date --iso-8601=seconds)
 mkdir -p $DIR
 echo -e "Created directory for current run:\n./$DIR\n"
-if [[ $VERBOSE -eq YES ]]; then
+
+if [[ $VERBOSE == YES ]]; then
   IFS=$'\n'
   echo -e "Running MONSTER pipeline on files:\n${POSITIONAL_ARGS[*]}\n"
 fi
