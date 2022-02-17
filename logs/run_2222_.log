@@ -1,0 +1,893 @@
+Created directory for current run:
+./data/run-2022-02-17T15:26:31+02:00
+
+Running MONSTER pipeline on files:
+data/FilesForMonster/22220.csv
+data/FilesForMonster/22221.csv
+data/FilesForMonster/22222.csv
+data/FilesForMonster/22223.csv
+data/FilesForMonster/22224.csv
+data/FilesForMonster/22225.csv
+data/FilesForMonster/22226.csv
+data/FilesForMonster/22227.csv
+data/FilesForMonster/22228.csv
+data/FilesForMonster/22229.csv
+data/FilesForMonster/2222.csv
+
+Run parallel computing
+data/run-2022-02-17T15:26:31+02:00/output_2222/sequences.csv
+Making query: 0
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+Making query: 1
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+Making query: 2
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+Making query: 3
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+Making query: 4
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+Making query: 5
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+Making query: 6
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+Making query: 7
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+Making query: 8
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+Making query: 9
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+Step 1 executed with success!
+Output files are : data/run-2022-02-17T15:26:31+02:00/output_2222/sequences.csv for the sequences and data/run-2022-02-17T15:26:31+02:00/output_2222/logs.csv for the complementary informations.
+------------------------------------------------------------------------
+Step 2 executed with success!
+The output file is : data/run-2022-02-17T15:26:31+02:00/output_2222/deviations.json.
+------------------------------------------------------------------------
+Creating mutational spectrum for query 3
+Creating mutational spectrum for query 9
+Step 3 executed with success! 
+The output file is : data/run-2022-02-17T15:26:31+02:00/output_2222/mut_spec.json.
+------------------------------------------------------------------------
+Pipeline executed with success! 
+Output files are located in data/run-2022-02-17T15:26:31+02:00/output_2222
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+
+
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/kpotoh/.wdm/drivers/chromedriver/linux64/99.0.4844.35/chromedriver] found in cache
+data/run-2022-02-17T15:26:31+02:00/output_22222/sequences.csv
+Making query: 0
+Waiting for BLAST output
+Organism unfound, trying again.
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 1
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 2
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 3
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 4
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 5
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 6
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 7
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 8
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 9
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Step 1 executed with success!
+Output files are : data/run-2022-02-17T15:26:31+02:00/output_22222/sequences.csv for the sequences and data/run-2022-02-17T15:26:31+02:00/output_22222/logs.csv for the complementary informations.
+------------------------------------------------------------------------
+Step 2 executed with success!
+The output file is : data/run-2022-02-17T15:26:31+02:00/output_22222/deviations.json.
+------------------------------------------------------------------------
+Step 3 executed with success! 
+The output file is : data/run-2022-02-17T15:26:31+02:00/output_22222/mut_spec.json.
+------------------------------------------------------------------------
+Pipeline executed with success! 
+Output files are located in data/run-2022-02-17T15:26:31+02:00/output_22222
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+
+
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/kpotoh/.wdm/drivers/chromedriver/linux64/99.0.4844.35/chromedriver] found in cache
+data/run-2022-02-17T15:26:31+02:00/output_22220/sequences.csv
+Making query: 0
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 1
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 2
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 3
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 4
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 5
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 6
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 7
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 8
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 9
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Step 1 executed with success!
+Output files are : data/run-2022-02-17T15:26:31+02:00/output_22220/sequences.csv for the sequences and data/run-2022-02-17T15:26:31+02:00/output_22220/logs.csv for the complementary informations.
+------------------------------------------------------------------------
+Step 2 executed with success!
+The output file is : data/run-2022-02-17T15:26:31+02:00/output_22220/deviations.json.
+------------------------------------------------------------------------
+Creating mutational spectrum for query 2
+Step 3 executed with success! 
+The output file is : data/run-2022-02-17T15:26:31+02:00/output_22220/mut_spec.json.
+------------------------------------------------------------------------
+Pipeline executed with success! 
+Output files are located in data/run-2022-02-17T15:26:31+02:00/output_22220
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+
+
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/kpotoh/.wdm/drivers/chromedriver/linux64/99.0.4844.35/chromedriver] found in cache
+data/run-2022-02-17T15:26:31+02:00/output_22221/sequences.csv
+Making query: 0
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 1
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 2
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 3
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 4
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 5
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 6
+Waiting for BLAST output
+An error occured while making the query, please try again.
+Making query: 7
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 8
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 9
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Step 1 executed with success!
+Output files are : data/run-2022-02-17T15:26:31+02:00/output_22221/sequences.csv for the sequences and data/run-2022-02-17T15:26:31+02:00/output_22221/logs.csv for the complementary informations.
+------------------------------------------------------------------------
+Step 2 executed with success!
+The output file is : data/run-2022-02-17T15:26:31+02:00/output_22221/deviations.json.
+------------------------------------------------------------------------
+Creating mutational spectrum for query 1
+Creating mutational spectrum for query 3
+Step 3 executed with success! 
+The output file is : data/run-2022-02-17T15:26:31+02:00/output_22221/mut_spec.json.
+------------------------------------------------------------------------
+Pipeline executed with success! 
+Output files are located in data/run-2022-02-17T15:26:31+02:00/output_22221
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+
+
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/kpotoh/.wdm/drivers/chromedriver/linux64/99.0.4844.35/chromedriver] found in cache
+data/run-2022-02-17T15:26:31+02:00/output_22223/sequences.csv
+Making query: 0
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 1
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 2
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 3
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 4
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 5
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 6
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 7
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 8
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 9
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Step 1 executed with success!
+Output files are : data/run-2022-02-17T15:26:31+02:00/output_22223/sequences.csv for the sequences and data/run-2022-02-17T15:26:31+02:00/output_22223/logs.csv for the complementary informations.
+------------------------------------------------------------------------
+Step 2 executed with success!
+The output file is : data/run-2022-02-17T15:26:31+02:00/output_22223/deviations.json.
+------------------------------------------------------------------------
+Creating mutational spectrum for query 3
+Creating mutational spectrum for query 4
+Creating mutational spectrum for query 8
+Step 3 executed with success! 
+The output file is : data/run-2022-02-17T15:26:31+02:00/output_22223/mut_spec.json.
+------------------------------------------------------------------------
+Pipeline executed with success! 
+Output files are located in data/run-2022-02-17T15:26:31+02:00/output_22223
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+
+
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/kpotoh/.wdm/drivers/chromedriver/linux64/99.0.4844.35/chromedriver] found in cache
+data/run-2022-02-17T15:26:31+02:00/output_22224/sequences.csv
+Making query: 0
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 1
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 2
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 3
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 4
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 5
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 6
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 7
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 8
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 9
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Step 1 executed with success!
+Output files are : data/run-2022-02-17T15:26:31+02:00/output_22224/sequences.csv for the sequences and data/run-2022-02-17T15:26:31+02:00/output_22224/logs.csv for the complementary informations.
+------------------------------------------------------------------------
+Step 2 executed with success!
+The output file is : data/run-2022-02-17T15:26:31+02:00/output_22224/deviations.json.
+------------------------------------------------------------------------
+Step 3 executed with success! 
+The output file is : data/run-2022-02-17T15:26:31+02:00/output_22224/mut_spec.json.
+------------------------------------------------------------------------
+Pipeline executed with success! 
+Output files are located in data/run-2022-02-17T15:26:31+02:00/output_22224
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+
+
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/kpotoh/.wdm/drivers/chromedriver/linux64/99.0.4844.35/chromedriver] found in cache
+data/run-2022-02-17T15:26:31+02:00/output_22225/sequences.csv
+Making query: 0
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 1
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 2
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 3
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 4
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 5
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 6
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 7
+Waiting for BLAST output
+Organism unfound, trying again.
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 8
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 9
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Step 1 executed with success!
+Output files are : data/run-2022-02-17T15:26:31+02:00/output_22225/sequences.csv for the sequences and data/run-2022-02-17T15:26:31+02:00/output_22225/logs.csv for the complementary informations.
+------------------------------------------------------------------------
+Step 2 executed with success!
+The output file is : data/run-2022-02-17T15:26:31+02:00/output_22225/deviations.json.
+------------------------------------------------------------------------
+Step 3 executed with success! 
+The output file is : data/run-2022-02-17T15:26:31+02:00/output_22225/mut_spec.json.
+------------------------------------------------------------------------
+Pipeline executed with success! 
+Output files are located in data/run-2022-02-17T15:26:31+02:00/output_22225
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+
+
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/kpotoh/.wdm/drivers/chromedriver/linux64/99.0.4844.35/chromedriver] found in cache
+data/run-2022-02-17T15:26:31+02:00/output_22226/sequences.csv
+Making query: 0
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 1
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 2
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 3
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 4
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 5
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 6
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 7
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 8
+Waiting for BLAST output
+Organism unfound, trying again.
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 9
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Step 1 executed with success!
+Output files are : data/run-2022-02-17T15:26:31+02:00/output_22226/sequences.csv for the sequences and data/run-2022-02-17T15:26:31+02:00/output_22226/logs.csv for the complementary informations.
+------------------------------------------------------------------------
+Step 2 executed with success!
+The output file is : data/run-2022-02-17T15:26:31+02:00/output_22226/deviations.json.
+------------------------------------------------------------------------
+Creating mutational spectrum for query 0
+Step 3 executed with success! 
+The output file is : data/run-2022-02-17T15:26:31+02:00/output_22226/mut_spec.json.
+------------------------------------------------------------------------
+Pipeline executed with success! 
+Output files are located in data/run-2022-02-17T15:26:31+02:00/output_22226
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+
+
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/kpotoh/.wdm/drivers/chromedriver/linux64/99.0.4844.35/chromedriver] found in cache
+data/run-2022-02-17T15:26:31+02:00/output_22227/sequences.csv
+Making query: 0
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 1
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 2
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 3
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 4
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 5
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 6
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 7
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 8
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 9
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Step 1 executed with success!
+Output files are : data/run-2022-02-17T15:26:31+02:00/output_22227/sequences.csv for the sequences and data/run-2022-02-17T15:26:31+02:00/output_22227/logs.csv for the complementary informations.
+------------------------------------------------------------------------
+Step 2 executed with success!
+The output file is : data/run-2022-02-17T15:26:31+02:00/output_22227/deviations.json.
+------------------------------------------------------------------------
+Step 3 executed with success! 
+The output file is : data/run-2022-02-17T15:26:31+02:00/output_22227/mut_spec.json.
+------------------------------------------------------------------------
+Pipeline executed with success! 
+Output files are located in data/run-2022-02-17T15:26:31+02:00/output_22227
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+
+
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/kpotoh/.wdm/drivers/chromedriver/linux64/99.0.4844.35/chromedriver] found in cache
+data/run-2022-02-17T15:26:31+02:00/output_22229/sequences.csv
+Making query: 0
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 1
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 2
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 3
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 4
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 5
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 6
+Waiting for BLAST output
+An error occured while making the query, please try again.
+Making query: 7
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 8
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 9
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Step 1 executed with success!
+Output files are : data/run-2022-02-17T15:26:31+02:00/output_22229/sequences.csv for the sequences and data/run-2022-02-17T15:26:31+02:00/output_22229/logs.csv for the complementary informations.
+------------------------------------------------------------------------
+Step 2 executed with success!
+The output file is : data/run-2022-02-17T15:26:31+02:00/output_22229/deviations.json.
+------------------------------------------------------------------------
+Step 3 executed with success! 
+The output file is : data/run-2022-02-17T15:26:31+02:00/output_22229/mut_spec.json.
+------------------------------------------------------------------------
+Pipeline executed with success! 
+Output files are located in data/run-2022-02-17T15:26:31+02:00/output_22229
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+
+
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/kpotoh/.wdm/drivers/chromedriver/linux64/99.0.4844.35/chromedriver] found in cache
+data/run-2022-02-17T15:26:31+02:00/output_22228/sequences.csv
+Making query: 0
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 1
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 2
+Waiting for BLAST output
+An error occured while making the query, please try again.
+Making query: 3
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 4
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 5
+Waiting for BLAST output
+Organism unfound, trying again.
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 6
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 7
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 8
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Making query: 9
+Waiting for BLAST output
+Processing BLAST output
+Query process finished. Removing temp file.
+Temp file removed.
+
+Step 1 executed with success!
+Output files are : data/run-2022-02-17T15:26:31+02:00/output_22228/sequences.csv for the sequences and data/run-2022-02-17T15:26:31+02:00/output_22228/logs.csv for the complementary informations.
+------------------------------------------------------------------------
+Step 2 executed with success!
+The output file is : data/run-2022-02-17T15:26:31+02:00/output_22228/deviations.json.
+------------------------------------------------------------------------
+Creating mutational spectrum for query 4
+Step 3 executed with success! 
+The output file is : data/run-2022-02-17T15:26:31+02:00/output_22228/mut_spec.json.
+------------------------------------------------------------------------
+Pipeline executed with success! 
+Output files are located in data/run-2022-02-17T15:26:31+02:00/output_22228
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+
+
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/kpotoh/.wdm/drivers/chromedriver/linux64/99.0.4844.35/chromedriver] found in cache
+Done

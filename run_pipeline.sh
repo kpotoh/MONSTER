@@ -10,6 +10,7 @@ Options:\n
 -t, --threads [INT]\t         number of threads (default: 0 (all))\n
 -o, --outdir [STR] \t         output directory (default: ./data)\n
 -p, --tmpdir [STR] \t         temporary directory (default: ./tmp)\n
+-s, --show-browser \t         indicate if the browser should be visible\n
 -c, --context      \t\t       indicate if context of mutations should be taken into account when calculating mutational spectrum\n
 -r, --testrun      \t\t       first test run (required on new machine)\n
 -d, --dry-run      \t\t       print the job to run on stdout (need for debugging)\n
@@ -19,8 +20,9 @@ Options:\n
 VERBOSE=NO
 TESTRUN=NO
 CONTEXT=""
+SHOW_BROWSER=""
 DRY=""
-THREADS=0  # which will run as many jobs in parallel as possible.
+THREADS=0  # which will run as many jobs in parallel as possible
 PYTHON=/usr/bin/python3
 PARALLEL=/usr/bin/parallel
 SCRIPT=/opt/MONSTER/scripts/pipeline/MONSTER.py
@@ -51,6 +53,10 @@ while [[ $# -gt 0 ]]; do
       ;;
     -c|--context)
       CONTEXT="-c"
+      shift # past argument
+      ;;
+    -s|--show-browser)
+      SHOW_BROWSER="-v"
       shift # past argument
       ;;  
     -d|--dry-run)
@@ -105,5 +111,5 @@ if [[ $VERBOSE == YES ]]; then
 fi
 
 echo "Run parallel computing"
-$PARALLEL $DRY --jobs $THREADS $PYTHON $SCRIPT $CONTEXT -b --input_file {} --out_folder $DIR/output_{/.} ::: ${POSITIONAL_ARGS[*]}  #  --dry-run
+$PARALLEL $DRY --jobs $THREADS $PYTHON $SCRIPT $CONTEXT $SHOW_BROWSER -b --input_file {} --out_folder $DIR/output_{/.} ::: ${POSITIONAL_ARGS[*]}
 echo "Done"
