@@ -31,6 +31,10 @@ OUTDIR=data
 TMPDIR=tmp
 POSITIONAL_ARGS=()
 
+hit_size_treshold=50
+hits_nb=500
+
+
 if [ $# -eq 0 ]; then
   echo -e "Error! No arguments supplied\n"
   echo -e $DOCSTRING
@@ -111,5 +115,8 @@ if [[ $VERBOSE == YES ]]; then
 fi
 
 echo "Run parallel computing"
-$PARALLEL $DRY --jobs $THREADS $PYTHON $SCRIPT $CONTEXT $SHOW_BROWSER -b --input_file {} --out_folder $DIR/output_{/.} ::: ${POSITIONAL_ARGS[*]}
+$PARALLEL $DRY --jobs $THREADS $PYTHON $SCRIPT $CONTEXT $SHOW_BROWSER -b \
+    -hit_size_treshold $hit_size_treshold -hits_nb $hits_nb --input_file {} \
+    --out_folder $DIR/output_{/.} ::: ${POSITIONAL_ARGS[*]}
+    
 echo "Done"
