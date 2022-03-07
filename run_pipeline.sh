@@ -116,7 +116,7 @@ fi
 
 echo "Run parallel computing"
 $PARALLEL $DRY --jobs $THREADS $PYTHON $SCRIPT $CONTEXT $SHOW_BROWSER -b \
-    -hit_size_treshold $hit_size_treshold -hits_nb $hits_nb --input_file {} \
+    --hit_size_treshold $hit_size_treshold --hits_nb $hits_nb --input_file {} \
     --out_folder $DIR/output_{/.} ::: ${POSITIONAL_ARGS[*]}
-    
+
 echo "Done"
